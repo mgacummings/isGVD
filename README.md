@@ -10,15 +10,15 @@ The following ideal is geometrically vertex decomposable [[1]](#KleinRajchgot21)
 We use `show_output=False` to hide intermediate output.
 
 ```{python}
-> isGVD('ideal(y*(z*s-x^2), y*w*r, w*r*(z^2 + z*x + w*r + s^2))', show_output=False)
-True
+isGVD('ideal(y*(z*s-x^2), y*w*r, w*r*(z^2 + z*x + w*r + s^2))', show_output=False)
 ```
 
+This returns `True`.
 By default, `show_output` is set to `True`.
 In this case, every intermediate geometric vertex decomposition and the C_{y,I} and N_{y,I} ideals are shown, as well as any warnings.
 
 ```{python}
-> isGVD('ideal(y*(z*s-x^2), y*w*r, w*r*(z^2 + z*x + w*r + s^2))')
+isGVD('ideal(y*(z*s-x^2), y*w*r, w*r*(z^2 + z*x + w*r + s^2))')
 ```
 Has the following output.
 
