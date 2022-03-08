@@ -1,5 +1,5 @@
 # isGVD
-Code to check whether ideals are geometrically vertex decomposable.
+A SageMath program to check the GVD property.
 
 This Sage notebook contains several functions, most notable is the `isGVD` function.
 Taking any polynomial ideal, stored as a string, as input, this function returns whether or not the ideal is geometrically vertex decomposable.
