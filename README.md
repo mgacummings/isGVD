@@ -4,6 +4,11 @@ A SageMath program to check the GVD property.
 This Sage notebook contains several functions, most notable is the `isGVD` function.
 Taking any polynomial ideal, stored as a string, as input, this function returns whether or not the ideal is geometrically vertex decomposable.
 
+## Caveat emptor
+
+This is a scrappy first attempt at code for geometric vertex decomposability of ideals.
+With [Adam Van Tuyl](https://ms.mcmaster.ca/~vantuyl/), we are developing a _Macaulay2_ package [GeometricDecomposability](https://github.com/Macaulay2/M2/wiki/Project%3A-Geometric-Vertex-Decomposition) which builds upon this code, adds functionailty, and improves usabliity.
+
 ## Example
 
 The following ideal is geometrically vertex decomposable [[1]](#KleinRajchgot21).
